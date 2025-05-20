@@ -3,9 +3,9 @@ import { Cabecalho } from "./styles"
 
 const Header = () => {
     return (
-        <Cabecalho>
-            <Titulo />
-        </Cabecalho>
+      <Cabecalho>
+        <Titulo />
+      </Cabecalho>
     )
 }
 

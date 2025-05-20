@@ -1,12 +1,14 @@
+import Form from "./containers/formulario";
 import Header from "./containers/header";
-import GlobalStyle from "./styles";
+import GlobalStyle, { Container } from "./styles";
 
 function App() {
   return (
-    <>
-    <GlobalStyle />
-      <Header />
-    </>
+    <Container>
+      <GlobalStyle />
+        <Header />
+        <Form />
+    </Container>
   )
 }
 
