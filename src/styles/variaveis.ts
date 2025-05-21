@@ -4,5 +4,6 @@ export default {
   corSecundaria: '#fff',
   corBotaoSalvar: 'rgb(34, 190, 13)',
   corBotaoEditar: 'rgb(255, 238, 0)',
-  corBotaoCancelar: 'rgb(255, 0, 0)'
+  corBotaoCancelar: 'rgb(255, 0, 0)',
+  cinza: '#ccc'
 }

@@ -1,4 +1,5 @@
 * {
     background-color: linear-gradient(45deg, #000, #530274);
     justify-content: flex-start;
+    border-radius: 50%;
 }

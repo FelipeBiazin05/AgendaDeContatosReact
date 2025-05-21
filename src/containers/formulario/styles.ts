@@ -3,7 +3,7 @@ import variaveis from "../../styles/variaveis";
 
 export const Campo = styled.input`
   background-color: transparent;
-  border: 1px solid ${variaveis.corSecundaria};
+  border: 2px solid ${variaveis.corDeFundo};
   width: 50%;
   display: block;
   margin: 0 auto;
@@ -25,7 +25,7 @@ export const BotaoCadastrar = styled.button`
   cursor: pointer;
   display: block;
   margin: 0 auto;
-  border: 1px solid ${variaveis.corSecundaria};
+  border: 2px solid ${variaveis.corDeFundo};
   font-weight: bold;
 
   &:hover {
@@ -39,4 +39,5 @@ export const LinkVoltar = styled.a`
   padding: 12px;
   text-decoration: none;
   font-size: 12px;
+  border-radius: 40%;
 `
